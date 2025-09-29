@@ -1,12 +1,12 @@
 # Tool Learning Log
 
-## Tool: **X**
+## Tool: **Unity**
 
-## Project: **X**
+## Project: **visual novel thingy**
 
 ---
 
-### X/X/XX:
+### 9/29/25:
 * Text
 
 ### X/X/XX:
