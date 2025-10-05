@@ -35,6 +35,7 @@ IEnumerator TypeLine()
         }
     }
 ```
+* Also checked out Ren'Py and what tools they have to make visual novels, such as this [video](https://www.youtube.com/watch?v=C3Ldd-5PKCw)
 * I will have to get started on making the art and the story soon
 
 ### X/X/XX:
