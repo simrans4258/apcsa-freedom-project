@@ -2,7 +2,7 @@
 
 ## Tool: **Unity**
 
-## Project: **visual novel thingy**
+## Project: **visual novel + mini rpg? (still deciding to add rpg or not)**
 
 ---
 
@@ -12,28 +12,28 @@
 * found out about old code I used for past projects involving unity at Game Academy, such as:
 ```c#
 IEnumerator TypeLine()
+{
+    foreach(char c in lines[index].ToCharArray()) // types out each char
     {
-        foreach(char c in lines[index].ToCharArray()) // types out each char
-        {
-            textComponent.text += c;
-            yield return new WaitForSeconds(textSpeed);
-        }
+        textComponent.text += c;
+        yield return new WaitForSeconds(textSpeed);
     }
+}
 
-    public void NextLine()
+public void NextLine()
+{
+    if (index < lines.Length - 1) // length of array
     {
-        if (index < lines.Length - 1) // length of array
-        {
-            index++; // go to next line
-            textComponent.text = string.Empty;
-            StartCoroutine(TypeLine());
-        }
-        else
-        {
-            sceneStop = true;
-            gameObject.SetActive(false); // all activity is stopped
-        }
+        index++; // go to next line
+        textComponent.text = string.Empty;
+        StartCoroutine(TypeLine());
     }
+    else
+    {
+        sceneStop = true;
+        gameObject.SetActive(false); // all activity is stopped
+    }
+}
 ```
 * Also checked out Ren'Py and what tools they have to make visual novels, such as this [video](https://www.youtube.com/watch?v=C3Ldd-5PKCw)
 * I will have to get started on making the art and the story soon
