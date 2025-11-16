@@ -8,9 +8,45 @@ As with the tradition of SEP goes, we of course have a new Freedom Project to do
 So, for my freedom project, I was actually dead set on making a visual novel for my project, or something like an RPG along with it, as I always wanted to make my own game. I felt like making a RPG visual novel game would be the best choice for me, as I already had an idea of what the story is going to be like. Anyways, while making the actual visual novel itself shouldn't be too bad, as I already have some familiarity with Unity, there's **a lot** more to making a game than just the code, especially for a project like this. Then, when I mentioned the project idea to some of my friends, they *immediately* said that they wanted to help me with things such as the art, music, writing story, etc. I'm very grateful for my friends to help me out, and with that settled, not only with a bunch of weight removed from my shoulders, but also to get started on relearning Unity!
 
 ### Relearning Unity
-Thanks to the wonderful people at Urban Arts, I ended up learning how to make basic 2D game development on a famous game engine called Unity. I ended up learning a lot of things on Unity, such as making platformers, a Cookie Clicker like game, turn-based RPGs, and even helped make a rhythm game for a team project. Anyways, since it has been a while since I used Unity after the class, but luckily for me, since I moved onto the 3D class, I ended up relearning a couple of things on Unity 2D, such as making players move and interact with objects for example.
+Thanks to the wonderful people at Urban Arts, I ended up learning how to make basic 2D game development on a famous game engine called Unity. I ended up learning a lot of things on Unity, such as making platformers, a Cookie Clicker like game, turn-based RPGs, and even helped make a rhythm game for a team project. Anyways, since it has been a while since I used Unity after the class, but luckily for me, since I moved onto the 3D class, I ended up relearning a couple of things on Unity 2D, such as making players move and interact with objects for example. Here's a code block to show that:
+```c#
+void OnCollisionEnter2D(Collision2D collision)
+{
+    if(collision.gameObject.tag == "gem") //checks to see if player collided with object of that tab
+    {
+        gameManager.GetCompenent<GameManagerScript>().score += 1; //gets score that is variable stored in a game manager, which is a separate object
+        Destroy(collision.gameObject); // destroys the gem, which is being collided with the player in this case
+    }
+}
+```
 
-According to my [learning log](/tool/learning-log.md), I ended up reviewing a lot of code on my own, as I went back to the previous projects I did on Unity to see what's useful for my project. For example, I ended up re-learning how to make dialogue boxes in Unity as that is the main thing I needed in my project, and I also looked up and saved tutorials that I need for the project. There were **definitely** Unity elements that I have to learn on my own as I wasn't taught in Game Academy, so there's that. I also looked at the [Unity documentation](https://docs.unity.com/en-us) to get some help on some of my code. Overall, I had a solid time re-learning and learning more things about Unity, and I'm sticking with it.
+According to my [learning log](/tool/learning-log.md), I ended up reviewing a lot of code on my own, as I went back to the previous projects I did on Unity to see what's useful for my project. For example, I ended up re-learning how to make dialogue boxes in Unity as that is the main thing I needed in my project, and I also looked up and saved tutorials that I need for the project. Here's an example of how to do a dialogue box in Unity, roughly.
+```c#
+IEnumerator TypeLine()
+{
+    foreach(char c in lines[index].ToCharArray()) // types out each char
+    {
+        textComponent.text += c;
+        yield return new WaitForSeconds(textSpeed);
+    }
+}
+
+public void NextLine()
+{
+    if (index < lines.Length - 1) // length of array
+    {
+        index++; // go to next line
+        textComponent.text = string.Empty;
+        StartCoroutine(TypeLine());
+    }
+    else
+    {
+        sceneStop = true;
+        gameObject.SetActive(false); // all activity is stopped
+    }
+}
+```
+There were **definitely** Unity elements that I have to learn on my own as I wasn't taught in Game Academy, so there's that. I also looked at the [Unity documentation](https://docs.unity.com/en-us) to get some help on some of my code. Overall, I had a solid time re-learning and learning more things about Unity, and I'm sticking with it.
 
 ## EDP
 Currently I'm at the first two steps of the Engineering Design Process, which are step 1, define the problem, and 2, research the problem. Basically the problem here is to make anything for our freedom projects, which is a visual novel game for me. The research is just learning our tool, and for me it's Unity.
