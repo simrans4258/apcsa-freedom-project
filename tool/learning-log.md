@@ -87,6 +87,21 @@ void OnCollisionEnter2D(Collision2D collision)
 * rather easy to remember as C# is very similar to Java
 * will learn more on how to use more variety of code and more elements of Unity in the game
 * also planning to use twinery.org to set up basic narrative of story soon
+
+## 11/16/25:
+* ended up starting a bit on the game, making a simple main menu
+* remembered how to transition between scenes in Unity, like this:
+```c#
+public void playGame() 
+{
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); // gets the next scene in the scene manager and transitions to that scene if player presses button
+}
+```
+* also remembered how to make buttons and UI in Unity, which I used for the buttons
+* managed to put a little bit of a dialogue box too in there, to test things out
+* need to figure out what's bugging with Unity, as the code should be okay
+* also made a repository but for some reason it's not uploading everything, need to figure that out too
+* might also add a little bit of rpg elements to the game, found this [playlist](https://www.youtube.com/playlist?list=PLy1Xj-4F5G_cytIH8by-bZ9TVj5qKMlZn) about it
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
