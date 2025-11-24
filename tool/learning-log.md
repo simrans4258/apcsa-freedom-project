@@ -70,7 +70,7 @@ if (Input.GetKeyDown(KeyCode.W)) //used for jump
 * also reviewed old code on Game Academy with past projects
 * have to learn on how to combine character dialogue and movement for the game
 
-## 11/2/25:
+### 11/2/25:
 * found this video about how to make a [dialogue system in unity](https://www.youtube.com/watch?v=1198z5dDc8g)
 * also found this video about how to make [tilemaps](https://youtu.be/DTp5zi8_u1U?si=Nb5-lEFUKpmifbTi), which I might be using for my game
 * experimented with old code and remembered how to do collision with other objects and destroy them, to get points for example:
@@ -88,7 +88,7 @@ void OnCollisionEnter2D(Collision2D collision)
 * will learn more on how to use more variety of code and more elements of Unity in the game
 * also planning to use twinery.org to set up basic narrative of story soon
 
-## 11/16/25:
+### 11/16/25:
 * ended up starting a bit on the game, making a simple main menu
 * remembered how to transition between scenes in Unity, like this:
 ```c#
@@ -102,6 +102,46 @@ public void playGame()
 * need to figure out what's bugging with Unity, as the code should be okay
 * also made a repository but for some reason it's not uploading everything, need to figure that out too
 * might also add a little bit of rpg elements to the game, found this [playlist](https://www.youtube.com/playlist?list=PLy1Xj-4F5G_cytIH8by-bZ9TVj5qKMlZn) about it
+
+### 11/23/2025:
+* ended up switching editors in Unity to make things more easy for my project
+* ended up completing the basis of the main menu with all the needed things for my game (start game, settings, credits, etc)
+```c#
+public void Game()
+{
+    SceneManager.LoadScene("Game");
+}
+
+public void Saves()
+{
+    SceneManager.LoadScene("Saves");
+}
+
+public void Credits()
+{
+    SceneManager.LoadScene("Credits");
+}
+
+public void CGs()
+{
+    SceneManager.LoadScene("CGs");
+}
+public void Help()
+{
+    SceneManager.LoadScene("Help");
+}
+
+public void Options() 
+{
+    SceneManager.LoadScene("Options");
+}
+```
+* basically in the above code SceneManager accesses the scene manager part in Unity and LoadScene lets you load a different scene in Unity based off name in this situation
+* these functions help us with the UI buttons in Unity, as these functions can be accessed by using the scripts inside Game Objects of the buttons in Unity
+* this is what the Main Menu looks like so far (very simple I know, will work on the art later):<img width="961" height="543" alt="image" src="https://github.com/user-attachments/assets/749cd908-b791-4571-a882-4496d58671cb" />
+* planning on working on the save menu and settings
+* also need to work on the story and art further for the beginning part of the game
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
