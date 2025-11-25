@@ -142,6 +142,13 @@ public void Options()
 * planning on working on the save menu and settings
 * also need to work on the story and art further for the beginning part of the game
 
+### 11/24/25:
+* made the credits scene for my project, and even added a new font to make the project prettier for now
+* ended up making a [new repository](https://github.com/simrans4258/VampireYuri) for the project to connect to Unity to save things + for game academy, and it works like a charm (thank goodness), will be updating the project there
+  * this [video](https://www.youtube.com/watch?v=pn1YgU81GUY) helped me connect github to Unity so my progress won't get loss
+* need to fix dialogue box for game with scaling
+* also need to adjust schedule for making story + art for game
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
