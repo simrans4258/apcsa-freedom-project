@@ -149,6 +149,31 @@ public void Options()
 * need to fix dialogue box for game with scaling
 * also need to adjust schedule for making story + art for game
 
+### 12/7/25: 
+* made a settings page for the game (will work on it more a bit later)
+```c#
+public AudioMixer audioMixer;
+public GameObject dialogue;
+public void SetVolume(float volume) 
+{
+    audioMixer.SetFloat("volume", volume);
+}
+
+public void SetFullScreen(bool isFullScreen) 
+{
+    Screen.fullScreen = isFullScreen;
+}
+
+public void SetTextSpeed(float txtSpeed) 
+{
+    dialogue.GetComponent<Dialogue>().textSpeed = txtSpeed;
+}
+```
+* used this [video](https://www.youtube.com/watch?v=YOaYQrN1oYQ&t=347s) to help me out on the settings a bit
+* basically what the code does above is to change the volume by getting the volume manager, using toggle to set the screen to full scrren, and changing the text speed by accessing a different script that has it
+  * not too sure about the text speed function since it technically belongs to a different scene, need to test that out later
+* found out this [website](https://madwomb.com/tutorials/GameDesign_UnityVisualNovel.html) on how to make a visual novel in Unity, will use some of the parts they give out
+* will get deeper into making assets and more scenes for different events according to the story
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
