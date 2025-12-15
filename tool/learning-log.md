@@ -174,6 +174,16 @@ public void SetTextSpeed(float txtSpeed)
   * not too sure about the text speed function since it technically belongs to a different scene, need to test that out later
 * found out this [website](https://madwomb.com/tutorials/GameDesign_UnityVisualNovel.html) on how to make a visual novel in Unity, will use some of the parts they give out
 * will get deeper into making assets and more scenes for different events according to the story
+
+## 12/14:
+* fixed the dialogue box, just managed to fix the canvas scaling and sizes for the UI
+<img width="793" height="444" alt="image" src="https://github.com/user-attachments/assets/cccd2286-92b4-48df-ae06-a60bac9e8fae" />
+* also made a how to play page and made the saves and gallery scenes
+* need to work on making more scenes for story progression + making save pages actually work
+* currently working on character designs + writing the story for the game
+* found another [website](https://codyclaborn.me/tutorials/creating-a-visual-novel-in-unity/) for the game
+* also need to work on the music/sfx for the game
+
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
