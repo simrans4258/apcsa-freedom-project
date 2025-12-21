@@ -178,6 +178,7 @@ public void SetTextSpeed(float txtSpeed)
 ## 12/14:
 * fixed the dialogue box, just managed to fix the canvas scaling and sizes for the UI
 <img width="793" height="444" alt="image" src="https://github.com/user-attachments/assets/cccd2286-92b4-48df-ae06-a60bac9e8fae" />
+
 * also made a how to play page and made the saves and gallery scenes
 * need to work on making more scenes for story progression + making save pages actually work
 * currently working on character designs + writing the story for the game
