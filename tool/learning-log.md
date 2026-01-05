@@ -175,7 +175,7 @@ public void SetTextSpeed(float txtSpeed)
 * found out this [website](https://madwomb.com/tutorials/GameDesign_UnityVisualNovel.html) on how to make a visual novel in Unity, will use some of the parts they give out
 * will get deeper into making assets and more scenes for different events according to the story
 
-## 12/14:
+### 12/14:
 * fixed the dialogue box, just managed to fix the canvas scaling and sizes for the UI
 <img width="793" height="444" alt="image" src="https://github.com/user-attachments/assets/cccd2286-92b4-48df-ae06-a60bac9e8fae" />
 
@@ -184,6 +184,12 @@ public void SetTextSpeed(float txtSpeed)
 * currently working on character designs + writing the story for the game
 * found another [website](https://codyclaborn.me/tutorials/creating-a-visual-novel-in-unity/) for the game
 * also need to work on the music/sfx for the game
+
+### 1/4/26: 
+* made more scenes for the game
+<img width="1464" height="968" alt="image" src="https://github.com/user-attachments/assets/5284bb22-f12f-4e96-a81e-b122a675484c" />
+* downloaded sprites to experiment with changing sprites for characters
+* need to figure out how to change text with different choices still
 
 <!-- 
 * Links you used today (websites, videos, etc)
