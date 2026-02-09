@@ -1,19 +1,24 @@
 # Plan
 
-## Tool: 
-## Product: 
+## Tool: Unity
+## Product: Visual Novel
 
 ---
 
 ## Timeline
 
 #### MVP
-
-- [ ] Task (deadline: X)
-  - [ ] Subtask (deadline: X)
+- [ ] Finish prologue + first "chapter" of the game (deadline: X)
+  - [ ] Finish the dialogue system (deadline: X)
+    - [ ] Input some actual dialogue in the novel (deadline: X)
+    - [ ] Make the UI fit the theme of the game (deadline: X)
+- [ ] Input sprite animation/changing sprites (deadline: X)
+  - [ ] Finish the art of the game (deadline: X)
+  - [ ] Make some transition scenes maybe (deadline: X)
+- [ ] Playtest the game (deadline: X)
+  - [ ] Fix potential errors (deadline: X)
 
 #### Beyond MVP
-
 - [ ] Task
   - [ ] Subtask
 
