@@ -8,19 +8,24 @@
 ## Timeline
 
 #### MVP
-- [ ] Finish prologue + first "chapter" of the game (deadline: X)
-  - [ ] Finish the dialogue system (deadline: X)
-    - [ ] Input some actual dialogue in the novel (deadline: X)
-    - [ ] Make the UI fit the theme of the game (deadline: X)
+- [ ] Finish prologue + first "chapter" of dialogue in the game (deadline: X)
+  - [ ] Finish the dialogue system itself (deadline: X)
+    - [ ] Input some actual dialogue in the novel from draft of storyline so far (deadline: X)
+    - [ ] Make the UI fit the theme of the game by importing/creating designs for the UI (deadline: X)
+    - [ ] Finish the code by adding buttons for choices and creating scripts that help change the dialogue (deadline: X)
 - [ ] Input sprite animation/changing sprites (deadline: X)
   - [ ] Finish the art of the game (deadline: X)
-  - [ ] Make some transition scenes maybe (deadline: X)
-- [ ] Playtest the game (deadline: X)
+    - [ ] Make some backgrounds (at least two), and some character models (at least 2) (deadline: X)
+    - [ ] Make some alternate character expressions (deadline: X)
+  - [ ] Make scripts and code that can help change the character's expression with the dialogue too (deadline: X)
+- [ ] Build and playtest the game (deadline: X)
   - [ ] Fix potential errors (deadline: X)
 
 #### Beyond MVP
-- [ ] Task
-  - [ ] Subtask
+- [ ] Write more script for the game for future chapters
+  - [ ] Add more scenes for the game depending on story
+- [ ] Create/add more characters to the game
+- [ ] 
 
 
 <!-- EXAMPLE
