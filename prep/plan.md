@@ -8,24 +8,23 @@
 ## Timeline
 
 #### MVP
-- [ ] Finish prologue + first "chapter" of dialogue in the game (deadline: X)
-  - [ ] Finish the dialogue system itself (deadline: X)
-    - [ ] Input some actual dialogue in the novel from draft of storyline so far (deadline: X)
-    - [ ] Make the UI fit the theme of the game by importing/creating designs for the UI (deadline: X)
-    - [ ] Finish the code by adding buttons for choices and creating scripts that help change the dialogue (deadline: X)
-- [ ] Input sprite animation/changing sprites (deadline: X)
-  - [ ] Finish the art of the game (deadline: X)
-    - [ ] Make some backgrounds (at least two), and some character models (at least 2) (deadline: X)
-    - [ ] Make some alternate character expressions (deadline: X)
-  - [ ] Make scripts and code that can help change the character's expression with the dialogue too (deadline: X)
-- [ ] Build and playtest the game (deadline: X)
-  - [ ] Fix potential errors (deadline: X)
+- [ ] Finish prologue + first "chapter" of dialogue in the game (deadline: 4/13)
+  - [ ] Finish the dialogue system itself (deadline: 2/20)
+    - [ ] Input some actual dialogue in the novel from draft of storyline so far (deadline: 2/16)
+    - [ ] Make the UI fit the theme of the game by importing/creating designs for the UI (deadline: 3/7-9)
+    - [ ] Finish the code by adding buttons for choices and creating scripts that help change the dialogue (deadline: 3/14-15)
+- [ ] Input sprite animation/changing sprites (deadline: 4/13)
+  - [ ] Finish the art of the game (deadline: 2/28)
+    - [ ] Make some backgrounds (at least two), and some character models (at least 2) (deadline: 3/7-9)
+    - [ ] Make some alternate character expressions (deadline: 3/21-22)
+  - [ ] Make scripts and code that can help change the character's expression with the dialogue too (deadline: 3/7-9)
+- [ ] Build and playtest the game (deadline: 4/13)
+  - [ ] Fix potential errors (deadline: 4/13)
 
 #### Beyond MVP
 - [ ] Write more script for the game for future chapters
   - [ ] Add more scenes for the game depending on story
 - [ ] Create/add more characters to the game
-- [ ] 
 
 
 <!-- EXAMPLE
