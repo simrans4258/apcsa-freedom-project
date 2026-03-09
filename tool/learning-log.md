@@ -178,7 +178,6 @@ public void SetTextSpeed(float txtSpeed)
 ### 12/14:
 * fixed the dialogue box, just managed to fix the canvas scaling and sizes for the UI
 <img width="793" height="444" alt="image" src="https://github.com/user-attachments/assets/cccd2286-92b4-48df-ae06-a60bac9e8fae" />
-
 * also made a how to play page and made the saves and gallery scenes
 * need to work on making more scenes for story progression + making save pages actually work
 * currently working on character designs + writing the story for the game
@@ -191,6 +190,24 @@ public void SetTextSpeed(float txtSpeed)
 * downloaded sprites to experiment with changing sprites for characters
 * need to figure out how to change text with different choices still
 
+### 3/8/26:
+* added more dialogue to the scenes
+* learned how to make buttons for choices, such as:
+```c#
+public void Choice1aFunct(){
+       Char1name.text = "YOU";
+       Char1speech.text = "You won't catch me!!";
+       Char2name.text = "";
+       Char2speech.text = "";
+       primeInt = 19;
+       Choice1a.SetActive(false);
+       Choice1b.SetActive(false);
+       nextButton.SetActive(true);
+       allowSpace = true;
+}
+```
+* need to make more sprites for the game
+* need to slightly adjust the UI of the game such as volume and looks
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
