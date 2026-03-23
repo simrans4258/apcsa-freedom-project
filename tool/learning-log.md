@@ -208,6 +208,10 @@ public void Choice1aFunct(){
 ```
 * need to make more sprites for the game
 * need to slightly adjust the UI of the game such as volume and looks
+
+### 3/23/26:
+* reviewed from previous project I did in game academy on how to change sprites
+* also reviewed on how to make UI transcluent
 <!-- 
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
