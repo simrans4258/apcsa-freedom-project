@@ -1,11 +1,11 @@
 # Entry 5
 ##### X/X/XX
 
-## Some Context
+## Finishing MVP
 
-### Thing 1
+### What I did over Spring Break
 
-### Thing 2
+### Plans for Beyond MVP
 
 ## EDP
 
