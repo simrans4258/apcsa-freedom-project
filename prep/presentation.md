@@ -8,10 +8,13 @@
 * visual novel
 
 ## Process
-* unity
+* code snippets/screenshots
+* screenshots of UI
+* unity stuff like inspector, hierachy, github repo
 
 ## Conclusion
-* dont procrastonate
+* dont procrastanate
+* take your time to schedule
 
 <!-- EXAMPLE
 
