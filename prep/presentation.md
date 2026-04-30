@@ -1,16 +1,17 @@
 # Presentation Plan
 
 ## Hook
-* 
+* do yall like games?
+* maybe popular examples of popular visual novel games
 
 ## Product
-* 
+* visual novel
 
 ## Process
-* 
+* unity
 
 ## Conclusion
-* 
+* dont procrastonate
 
 <!-- EXAMPLE
 
