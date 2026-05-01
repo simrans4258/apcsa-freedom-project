@@ -5,16 +5,25 @@
 * maybe popular examples of popular visual novel games
 
 ## Product
-* visual novel
+* a visual novel created in unity about someone who suddenly turns invisible and is slowly getting forgotten by everyone she knows, and has to figure out and solve the mystery behind this strange occurance before staying like this permanently
 
 ## Process
-* code snippets/screenshots
-* screenshots of UI
-* unity stuff like inspector, hierachy, github repo
+* reviewing what I learned about Unity before
+  * how it was like to code in Unity with C#
+  * relearning unity stuff like inspector, hierachies
+  * how to connect project to github repo
+* learning new things about making the game
+  * going deeper into UI in Unity
+  * scaling with project builds
+  * making art, music, and story with the game (all pretty basic tho)
 
 ## Conclusion
-* dont procrastanate
-* take your time to schedule
+* website to game: https://galaxia08.itch.io/forget-me-not
+* github repo: https://github.com/simrans4258/forget-me-not
+* Takeaways
+  * dont procrastanate
+  * take your time to schedule of all things you have to do, especially if you know you're busy
+  * plan out carefully on what you should do
 
 <!-- EXAMPLE
 
